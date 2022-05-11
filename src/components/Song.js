@@ -3,11 +3,11 @@ import cover from "./../assets/cover.png";
 
 const Song = props => {
 	// destructuring props
-  const { currentSong } = props;
-  
+	const { currentSong } = props;
+
 	return (
 		<div className="song-container">
-			<img src={cover} alt={currentSong.name}></img>
+			<img src={cover} alt={currentSong.name} />
 			<h2>{currentSong.name}</h2>
 			<h3>{currentSong.artist}</h3>
 		</div>
