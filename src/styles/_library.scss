@@ -23,7 +23,7 @@
 	}
 
 	&:hover {
-		background-color: #e6f7ff;
+		background-color: #dfd3c3;
 	}
 }
 
@@ -37,7 +37,6 @@
 		font-size: 0.7rem;
 	}
 }
-
 
 // Styling scrollbar
 * {
@@ -57,4 +56,8 @@
 	background-color: transparent;
 	border-radius: 20px;
 	border: transparent;
+}
+
+.selected {
+	background-color: #c7b198;
 }
